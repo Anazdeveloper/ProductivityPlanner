@@ -1,0 +1,21 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          # API uses snake_case JSON (see approved API spec).
+          field_rename: snake
+          explicit_to_json: true
+          include_if_null: false
+          # Fail loudly on unexpected server payloads instead of producing half-built DTOs.
+          checked: true
+          disallow_unrecognized_keys: false
+      drift_dev:
+        options:
+          # ISO-8601 text instead of unix seconds: keeps milliseconds and is
+          # readable when inspecting the database file.
+          store_date_time_values_as_text: true
+          databases:
+            app_database: lib/core/database/app_database.dart
+          schema_dir: drift_schemas/
+          test_dir: test/drift/

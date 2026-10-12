@@ -1,0 +1,7 @@
+arb-dir: lib/l10n/arb
+template-arb-file: app_en.arb
+output-dir: lib/l10n/generated
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+# AppLocalizations.of(context) returns a non-null value, so no `!` anywhere.
+nullable-getter: false

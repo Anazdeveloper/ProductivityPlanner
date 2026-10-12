@@ -1,0 +1,1046 @@
+{
+  "@@locale": "en",
+  "appTitle": "Planner",
+  "@appTitle": {
+    "description": "Working app name shown by the OS task switcher."
+  },
+  "tabToday": "Today",
+  "tabPlanner": "Planner",
+  "tabInsights": "Insights",
+  "tabSettings": "Settings",
+  "actionClose": "Close",
+  "actionRetry": "Try again",
+  "actionGoToToday": "Go to Today",
+  "notFoundMessage": "This page doesn't exist.",
+  "failureNetwork": "You're offline or the server can't be reached. Your changes are saved on this device.",
+  "failureUnauthenticated": "Your session has ended. Please sign in again.",
+  "failureForbidden": "You don't have access to that.",
+  "failureValidation": "Please check the highlighted fields.",
+  "failureNotFound": "That item doesn't exist anymore.",
+  "failureServer": "Something went wrong on our side. Please try again.",
+  "failureDatabase": "We couldn't save that on this device. Please try again.",
+  "failureEntitlementRequired": "This is a Premium feature.",
+  "failureLimitReached": "You've reached your plan's limit. Upgrade to add more.",
+  "failureUnexpected": "Something unexpected happened. Please try again.",
+  "conflictAlreadyResolved": "This task was already finished on another device.",
+  "conflictEntityDeleted": "This task was deleted on another device.",
+  "conflictInvalidTransition": "That action isn't possible for this task anymore.",
+  "conflictGeneric": "This changed on another device. We kept the latest version.",
+  "permissionNotificationsDenied": "Notifications are off, so reminders can't be shown.",
+  "permissionExactAlarmsDenied": "Exact alarms are off, so reminders may arrive a few minutes late.",
+  "permissionMicrophoneDenied": "Microphone access is needed to add tasks by voice.",
+  "permissionSpeechDenied": "Speech recognition access is needed to add tasks by voice.",
+  "failureInvalidCredentials": "That email and password don't match.",
+  "conflictEmailTaken": "An account with this email already exists. Try signing in.",
+  "loadingLabel": "Loading",
+  "signInTitle": "Welcome back",
+  "signInSubtitle": "Plan it. Do it. Learn from it.",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "signInButton": "Sign in",
+  "forgotPasswordLink": "Forgot password?",
+  "orDivider": "or",
+  "continueWithApple": "Continue with Apple",
+  "continueWithGoogle": "Continue with Google",
+  "noAccountPrompt": "New here?",
+  "createAccountLink": "Create an account",
+  "sessionExpiredNotice": "Your session ended. Please sign in again.",
+  "registerTitle": "Create your account",
+  "displayNameLabel": "Your name",
+  "passwordHint": "At least {min} characters",
+  "@passwordHint": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "registerButton": "Create account",
+  "haveAccountPrompt": "Already have an account?",
+  "signInLink": "Sign in",
+  "forgotPasswordTitle": "Reset your password",
+  "forgotPasswordIntro": "Enter your account email and we'll send you a 6-digit code.",
+  "sendCodeButton": "Send code",
+  "codeSentIntro": "If an account exists for {email}, we've sent a 6-digit code. It expires in 15 minutes.",
+  "@codeSentIntro": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "resetCodeLabel": "6-digit code",
+  "newPasswordLabel": "New password",
+  "resetPasswordButton": "Reset password",
+  "changeEmailButton": "Use a different email",
+  "passwordResetDone": "Your password was changed and you've been signed out everywhere. Sign in with your new password.",
+  "backToSignIn": "Back to sign in",
+  "errorEmailEmpty": "Enter your email.",
+  "errorEmailInvalid": "Enter a valid email address.",
+  "errorPasswordEmpty": "Enter your password.",
+  "errorPasswordTooShort": "Use at least {min} characters.",
+  "@errorPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "errorPasswordTooLong": "Use at most {max} characters.",
+  "@errorPasswordTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorDisplayNameEmpty": "Enter your name.",
+  "errorDisplayNameTooLong": "Use at most {max} characters.",
+  "@errorDisplayNameTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorResetCodeInvalid": "Enter the 6-digit code from the email.",
+  "profileTitle": "Profile",
+  "profileNameLabel": "Name",
+  "profileEmailLabel": "Email",
+  "profileTimeZoneLabel": "Time zone",
+  "saveButton": "Save",
+  "profileSaved": "Profile updated.",
+  "subscriptionTitle": "Pro",
+  "signOutAction": "Sign out",
+  "addTask": "Add task",
+  "anyTime": "Any time",
+  "cancelButton": "Cancel",
+  "markDone": "Mark as done",
+  "doneWithDuration": "Done, enter time",
+  "postpone": "Postpone",
+  "skip": "Skip",
+  "reopen": "Reopen",
+  "moreActions": "More actions",
+  "dayToday": "Today",
+  "dayTomorrow": "Tomorrow",
+  "dayYesterday": "Yesterday",
+  "durationMinutes": "{minutes} min",
+  "@durationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHours": "{hours} h",
+  "@durationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHoursMinutes": "{hours} h {minutes} min",
+  "@durationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "progressDone": "{done} of {total} done",
+  "@progressDone": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "plannedTime": "{duration} planned",
+  "@plannedTime": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "nextTaskLabel": "Next up",
+  "quickAddHint": "Add a task for today…",
+  "quickAddMoreOptions": "More options",
+  "emptyToday": "Nothing planned for today. Add a task to get started.",
+  "emptyDay": "Nothing planned for this day.",
+  "sectionToDo": "To do · {count}",
+  "@sectionToDo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sectionDone": "Done · {count}",
+  "@sectionDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previousWeek": "Previous week",
+  "nextWeek": "Next week",
+  "completeTaskNamed": "Mark {title} as done",
+  "@completeTaskNamed": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "reopenTaskNamed": "Reopen {title}",
+  "@reopenTaskNamed": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "repeatingTask": "Repeats",
+  "postponedTask": "Postponed",
+  "statusUpcoming": "Upcoming",
+  "statusDue": "Now",
+  "statusOverdue": "Overdue",
+  "statusMissed": "Missed",
+  "statusInProgress": "In progress",
+  "statusPaused": "Paused",
+  "statusCompleted": "Done",
+  "statusSkipped": "Skipped",
+  "statusCancelled": "Cancelled",
+  "priorityLow": "Low",
+  "priorityMedium": "Medium",
+  "priorityHigh": "High",
+  "skipReasonNoTime": "No time",
+  "skipReasonNotNeeded": "Not needed anymore",
+  "skipReasonTooTired": "Too tired",
+  "skipReasonForgot": "Forgot",
+  "skipReasonOther": "Other reason",
+  "skipWhy": "Why are you skipping it?",
+  "repeatNone": "Does not repeat",
+  "repeatDaily": "Daily",
+  "repeatWeekly": "Weekly",
+  "repeatMonthly": "Monthly",
+  "repeatEveryNDays": "{count, plural, =1{Every day} other{Every {count} days}}",
+  "@repeatEveryNDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "repeatEveryNWeeksOn": "{count, plural, =1{Every week on {days}} other{Every {count} weeks on {days}}}",
+  "@repeatEveryNWeeksOn": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "repeatEveryNMonthsOnDay": "{count, plural, =1{Monthly on day {day}} other{Every {count} months on day {day}}}",
+  "@repeatEveryNMonthsOnDay": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "everyNDaysLabel": "{count, plural, =1{Every day} other{Every {count} days}}",
+  "@everyNDaysLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "everyNWeeksLabel": "{count, plural, =1{Every week} other{Every {count} weeks}}",
+  "@everyNWeeksLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "everyNMonthsLabel": "{count, plural, =1{Every month} other{Every {count} months}}",
+  "@everyNMonthsLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "repeatTimes": "{count, plural, =1{1 time} other{{count} times}}",
+  "@repeatTimes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "repeatEndsNever": "Never",
+  "repeatEndsOnDate": "On a date",
+  "repeatEndsAfterCount": "After a number of times",
+  "reminderNone": "None",
+  "reminderAtStart": "At start time",
+  "reminderBefore": "{duration} before",
+  "@reminderBefore": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderNeedsTime": "Set a start time to get a reminder.",
+  "newTaskTitle": "New task",
+  "editTaskTitle": "Edit task",
+  "editorTitleLabel": "Title",
+  "editorTitleHint": "What do you want to do?",
+  "editorWhen": "When",
+  "editorDate": "Date",
+  "editorSetTime": "Set a start time",
+  "editorStartTime": "Start time",
+  "editorChangesApplyFrom": "Schedule changes apply from {date}. Earlier days keep their history.",
+  "@editorChangesApplyFrom": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "editorDuration": "Expected duration",
+  "editorRepeat": "Repeat",
+  "editorRepeatEnds": "Ends",
+  "editorReminder": "Reminder",
+  "editorPriority": "Priority",
+  "editorCategory": "Category",
+  "editorNotes": "Notes",
+  "editorNotesHint": "Details, links, anything useful",
+  "categoryNone": "None",
+  "decrease": "Decrease",
+  "increase": "Increase",
+  "errorTitleRequired": "Give the task a title.",
+  "errorTitleTooLong": "Use at most {max} characters.",
+  "@errorTitleTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorNotesTooLong": "Use at most {max} characters.",
+  "@errorNotesTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorDateInPast": "Pick today or a later date.",
+  "errorDurationRange": "Choose a duration between 1 minute and 24 hours.",
+  "errorUntilBeforeStart": "The end date must be on or after the start date.",
+  "errorCountRange": "Repeat between 1 and {max} times.",
+  "@errorCountRange": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "errorIntervalRange": "That repeat interval is too long.",
+  "errorPostponeInPast": "Pick a time later than now.",
+  "errorPostponeUnchanged": "That is when it is already planned.",
+  "errorCategoryNameRequired": "Give the category a name.",
+  "occurrenceGone": "This task no longer exists. It may have been deleted on another device.",
+  "postponeLaterToday": "In 1 hour",
+  "postponeTomorrow": "Tomorrow",
+  "postponePick": "Pick a date and time",
+  "postponedTimes": "{count, plural, =1{Postponed once} other{Postponed {count} times}}",
+  "@postponedTimes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "completedTook": "Done · took {duration}",
+  "@completedTook": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "completedUnmeasured": "Done · time not measured",
+  "actualDurationTitle": "How long did it take?",
+  "noteTitle": "Note",
+  "noteHint": "How did it go?",
+  "noteEmpty": "Add a note",
+  "cancelOccurrence": "Cancel this one",
+  "endRepeat": "Stop repeating",
+  "endRepeatTitle": "Stop repeating?",
+  "endRepeatMessage": "Today stays on your list. Future days are removed; anything you already did or changed is kept.",
+  "deleteTask": "Delete task",
+  "deleteTaskTitle": "Delete task?",
+  "deleteTaskMessage": "The task is removed from this device and, once synced, from your account.",
+  "deleteRepeatingTaskMessage": "All days of this repeating task are removed, including their history.",
+  "errorAlreadyResolved": "This task is already finished. Reopen it to change when it happens.",
+  "reminderNotificationBody": "Starts at {time}",
+  "@reminderNotificationBody": {
+    "description": "Reminder notification body; time is the task start, e.g. 7:00 PM",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "snoozeNotificationBody": "Snoozed reminder · planned for {time}",
+  "@snoozeNotificationBody": {
+    "description": "Snoozed reminder body",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderActionDone": "Done",
+  "@reminderActionDone": {
+    "description": "Notification button: mark the task done"
+  },
+  "reminderActionSnooze": "Snooze 10 min",
+  "@reminderActionSnooze": {
+    "description": "Notification button: remind again in 10 minutes"
+  },
+  "reminderChannelName": "Task reminders",
+  "@reminderChannelName": {
+    "description": "Android notification channel name"
+  },
+  "reminderChannelDescription": "Reminders shortly before a planned task starts",
+  "@reminderChannelDescription": {
+    "description": "Android notification channel description"
+  },
+  "updatesChannelName": "Account and updates",
+  "@updatesChannelName": {
+    "description": "Android channel for server messages"
+  },
+  "updatesChannelDescription": "Account, subscription and insight messages",
+  "@updatesChannelDescription": {
+    "description": "Android channel description"
+  },
+  "remindersOffBanner": "Reminders are off for this app.",
+  "@remindersOffBanner": {
+    "description": "Today banner when notification permission is missing"
+  },
+  "turnOnAction": "Turn on",
+  "openSettingsAction": "Open settings",
+  "allowAction": "Allow",
+  "notificationSettingsTitle": "Notifications",
+  "remindersSectionTitle": "Task reminders",
+  "remindersSwitchTitle": "Remind me before tasks",
+  "remindersSwitchSubtitle": "Uses the reminder set on each task",
+  "systemNotificationsAllowed": "Notifications are allowed",
+  "systemNotificationsNotAsked": "Allow notifications to get reminders",
+  "exactAlarmsTitle": "Exact reminder times",
+  "pushSectionTitle": "Other notifications",
+  "pushInsightsTitle": "Insights",
+  "pushInsightsSubtitle": "Suggestions based on how your tasks go",
+  "pushWeeklySummaryTitle": "Weekly summary",
+  "pushWeeklySummarySubtitle": "Your week at a glance, every Monday",
+  "pushAlwaysDeliveredNote": "Account, security and subscription messages are always sent.",
+  "settingsNotifications": "Notifications",
+  "@settingsNotifications": {
+    "description": "Settings list entry"
+  },
+  "startAction": "Start",
+  "@startAction": {
+    "description": "Start working on a task (timer)"
+  },
+  "pauseAction": "Pause",
+  "resumeAction": "Resume",
+  "timerRunningLabel": "Working on",
+  "@timerRunningLabel": {
+    "description": "Label above the running task on Today"
+  },
+  "timerPausedLabel": "Paused",
+  "@timerPausedLabel": {
+    "description": "Label above a paused task on Today"
+  },
+  "timeLeft": "{duration} left",
+  "@timeLeft": {
+    "description": "Remaining planned time",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "timeOver": "{duration} over plan",
+  "@timeOver": {
+    "description": "Time beyond the planned duration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "trackedOfPlanned": "{tracked} of {planned}",
+  "@trackedOfPlanned": {
+    "description": "Tracked versus planned time",
+    "placeholders": {
+      "tracked": {
+        "type": "String"
+      },
+      "planned": {
+        "type": "String"
+      }
+    }
+  },
+  "elapsedSemantics": "{duration} tracked so far",
+  "@elapsedSemantics": {
+    "description": "Screen reader label for the timer",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "autoPausedNotice": "Paused “{title}”",
+  "@autoPausedNotice": {
+    "description": "Snackbar after starting a task paused another",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "longSessionTitle": "That was a long one",
+  "longSessionMessage": "The timer shows {duration}. Was it left running?",
+  "@longSessionMessage": {
+    "description": "Asked before completing with an implausible tracked time",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "longSessionKeep": "Keep {duration}",
+  "@longSessionKeep": {
+    "description": "Complete with the tracked time",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "longSessionEnter": "Enter the actual time",
+  "periodDay": "Day",
+  "periodWeek": "Week",
+  "periodMonth": "Month",
+  "previousDay": "Previous day",
+  "nextDay": "Next day",
+  "previousMonth": "Previous month",
+  "nextMonth": "Next month",
+  "thisWeek": "This week",
+  "thisMonth": "This month",
+  "dateRange": "{start} – {end}",
+  "@dateRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "metricCompletion": "Completed",
+  "nothingDueYet": "Nothing due yet",
+  "noValue": "–",
+  "deltaUp": "{points, plural, =1{Up 1 point on the previous period} other{Up {points} points on the previous period}}",
+  "@deltaUp": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "deltaDown": "{points, plural, =1{Down 1 point on the previous period} other{Down {points} points on the previous period}}",
+  "@deltaDown": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "deltaSame": "Same as the previous period",
+  "metricTracked": "Time tracked",
+  "ofPlanned": "of {duration} planned",
+  "@ofPlanned": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "metricOnTime": "Started on time",
+  "noTimedStarts": "No timed starts yet",
+  "typicallyOnTime": "Usually right on time",
+  "typicallyLate": "Usually {duration} late",
+  "@typicallyLate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "typicallyEarly": "Usually {duration} early",
+  "@typicallyEarly": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "metricEstimates": "Time vs plan",
+  "noMeasurements": "Use the timer to compare",
+  "estimateAccurate": "Close to plan",
+  "estimateLonger": "Took {percent} longer than planned",
+  "@estimateLonger": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "estimateShorter": "Took {percent} less than planned",
+  "@estimateShorter": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "estimateBasis": "{count, plural, =1{Based on 1 timed task} other{Based on {count} timed tasks}}",
+  "@estimateBasis": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "metricPostponed": "Postponed",
+  "postponementsValue": "{count, plural, =0{Nothing moved} =1{Moved once} other{Moved {count} times in total}}",
+  "@postponementsValue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chartOutcomesTitle": "Done, skipped and missed",
+  "chartTapHint": "Tap a day to see it",
+  "chartTimeTitle": "Planned vs tracked time",
+  "outcomeDone": "Done",
+  "outcomeSkipped": "Skipped",
+  "outcomeMissed": "Missed",
+  "outcomeOpen": "To do",
+  "legendPlanned": "Planned",
+  "legendTracked": "Tracked",
+  "legendTookDone": "Time it took",
+  "legendPlannedLine": "Planned time",
+  "barOutcomeSemantics": "{date}: {done} done, {skipped} skipped, {missed} missed, {open} to do",
+  "@barOutcomeSemantics": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "done": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      },
+      "missed": {
+        "type": "int"
+      },
+      "open": {
+        "type": "int"
+      }
+    }
+  },
+  "barTimeSemantics": "{date}: {planned} planned, {tracked} tracked",
+  "@barTimeSemantics": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "planned": {
+        "type": "String"
+      },
+      "tracked": {
+        "type": "String"
+      }
+    }
+  },
+  "historyBarSemantics": "{date}: {outcome}, took {actual}, planned {planned}",
+  "@historyBarSemantics": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "outcome": {
+        "type": "String"
+      },
+      "actual": {
+        "type": "String"
+      },
+      "planned": {
+        "type": "String"
+      }
+    }
+  },
+  "notMeasured": "not measured",
+  "planVsActualTitle": "Plan vs actual",
+  "plannedVsActual": "{planned} planned, {actual}",
+  "@plannedVsActual": {
+    "placeholders": {
+      "planned": {
+        "type": "String"
+      },
+      "actual": {
+        "type": "String"
+      }
+    }
+  },
+  "startedOnTime": "Started on time",
+  "startedLate": "Started {duration} late",
+  "@startedLate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "startedEarly": "Started {duration} early",
+  "@startedEarly": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "byActivityTitle": "By activity",
+  "activityRowSubtitle": "{done} of {total} done · {tracked} tracked",
+  "@activityRowSubtitle": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "tracked": {
+        "type": "String"
+      }
+    }
+  },
+  "analyticsEmptyDay": "Nothing was planned for this day.",
+  "analyticsEmptyWeek": "Nothing was planned for this week.",
+  "analyticsEmptyMonth": "Nothing was planned for this month.",
+  "historyLimited": "{days, plural, =1{Your plan includes today's history only.} other{Your plan includes the last {days} days of history.}}",
+  "@historyLimited": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "seePlans": "See plans",
+  "activityTitle": "Activity",
+  "activityNotFound": "This activity has no history yet, or it was deleted.",
+  "activitySince": "Since {date}",
+  "@activitySince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "streakCurrent": "Streak",
+  "streakValue": "{count, plural, =0{None yet} =1{1 in a row} other{{count} in a row}}",
+  "@streakValue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakBest": "{count, plural, =0{Best: none yet} other{Best: {count} in a row}}",
+  "@streakBest": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyChartTitle": "Recent occurrences",
+  "historyChartSubtitle": "{count, plural, =1{The last occurrence} other{The last {count} occurrences}}",
+  "@historyChartSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "suggestionTitle": "Suggested duration",
+  "suggestionBody": "{count, plural, other{Your last {count} timed sessions took about {suggested}. It is planned for {current}.}}",
+  "@suggestionBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "suggested": {
+        "type": "String"
+      },
+      "current": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestionApply": "Plan {duration} from now on",
+  "@suggestionApply": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestionApplied": "Expected duration updated",
+  "suggestionLocked": "Duration suggestions are included with advanced analytics.",
+  "activityInsights": "Activity insights",
+  "activityInsightsSubtitle": "Streaks and how long it really takes",
+  "addByVoice": "Add by voice",
+  "voiceTitle": "Add by voice",
+  "voiceListening": "Listening…",
+  "voiceExample": "Try: “Run tomorrow at 7 for 30 minutes”, “Pay rent on the 1st of every month”",
+  "voiceExampleShort": "Call mom tomorrow at 6 pm",
+  "voiceStop": "Stop listening",
+  "voiceHeard": "“{text}”",
+  "@voiceHeard": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceUnderstood": "Here's what I understood",
+  "voiceOnlyTitle": "Only the title was understood. You can add the rest in the next step.",
+  "voiceContinue": "Review and save",
+  "voiceTryAgain": "Try again",
+  "voiceUnsupported": "Speech recognition isn't available on this device. You can type the task instead.",
+  "voiceNothingHeard": "Nothing was heard. Try again a little closer to the microphone.",
+  "voiceNetwork": "Speech recognition needs an internet connection on this device.",
+  "voiceBusy": "The microphone is being used by another app.",
+  "voiceFailed": "Something went wrong while listening. Try again.",
+  "voiceTypeInstead": "Or type it",
+  "voiceUnderstand": "Understand",
+  "voiceDraftBanner": "From what you said: “{text}”. Check the details, then save.",
+  "@voiceDraftBanner": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "prefillWhen": "When",
+  "prefillRepeats": "Repeats",
+  "prefillCategory": "Category",
+  "prefillNotSet": "Not set",
+  "subscriptionHeadline": "Plan more. Learn more.",
+  "subscriptionSubheadline": "Pro removes the limits and adds deeper insights into how your time really goes.",
+  "planFree": "Free",
+  "planPro": "Pro",
+  "planUnlimited": "Unlimited",
+  "planActiveTasks": "Active tasks",
+  "planRepeatingTasks": "Repeating tasks",
+  "planEveryFewDays": "Repeat every few days or weeks",
+  "planAnalyticsHistory": "Analytics history",
+  "planAllHistory": "All",
+  "planDays": "{count, plural, =1{1 day} other{{count} days}}",
+  "@planDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "planDurationSuggestions": "Duration suggestions",
+  "planIncluded": "Included",
+  "planNotIncluded": "Not included",
+  "offerAnnual": "{price} per year",
+  "@offerAnnual": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "offerMonthly": "{price} per month",
+  "@offerMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "offerPerMonth": "{price} a month",
+  "@offerPerMonth": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "offerTrial": "{days, plural, =1{1-day free trial} other{{days}-day free trial}}",
+  "@offerTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "subscriptionStartTrial": "Start free trial",
+  "subscriptionSubscribe": "Subscribe",
+  "subscriptionRestore": "Restore purchases",
+  "subscriptionUnavailable": "Purchases aren't available in this version of the app.",
+  "subscriptionLegal": "Payment is charged to your App Store or Google Play account. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period; you can manage or cancel it in your store account settings. A free trial converts to a paid subscription when it ends unless cancelled.",
+  "linkTerms": "Terms of use",
+  "linkPrivacy": "Privacy policy",
+  "subscriptionWelcome": "Welcome to Pro!",
+  "subscriptionNothingToRestore": "No purchases to restore for this store account.",
+  "subscriptionYouArePro": "You're on Pro",
+  "subscriptionConfirming": "Confirming your purchase with our server…",
+  "subscriptionManage": "Manage subscription",
+  "statusActive": "Your subscription is active.",
+  "statusRenews": "Renews on {date}.",
+  "@statusRenews": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "statusEnds": "Ends on {date}. It won't renew.",
+  "@statusEnds": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "statusTrialEnds": "Free trial until {date}.",
+  "@statusTrialEnds": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "statusBillingIssue": "There's a problem with your payment.",
+  "statusBillingIssueHelp": "Update your payment method in your store account to keep Pro.",
+  "purchasePending": "Your purchase is waiting for approval. Pro unlocks as soon as it goes through.",
+  "purchaseNotAllowed": "Purchases are turned off on this device.",
+  "entitlementAdvancedRecurrence": "Repeating every few days or weeks is part of Pro.",
+  "entitlementAdvancedAnalytics": "This is part of Pro.",
+  "limitActiveSeries": "{count, plural, =1{Your plan includes 1 active task. End one or upgrade to add more.} other{Your plan includes {count} active tasks. End one or upgrade to add more.}}",
+  "@limitActiveSeries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "limitRecurringSeries": "{count, plural, =1{Your plan includes 1 repeating task.} other{Your plan includes {count} repeating tasks.}}",
+  "@limitRecurringSeries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "limitVoicePerMonth": "{count, plural, =1{You've used your 1 voice entry this month.} other{You've used your {count} voice entries this month.}}",
+  "@limitVoicePerMonth": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncTitle": "Sync",
+  "syncStatusUpToDate": "All changes synced",
+  "syncStatusPending": "{count, plural, =1{1 change waiting to sync} other{{count} changes waiting to sync}}",
+  "@syncStatusPending": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncStatusOffline": "Offline. Changes are saved on this device.",
+  "syncStatusSyncing": "Syncing…",
+  "syncStatusFailed": "Last sync didn't finish",
+  "syncStatusNotYet": "Not synced yet",
+  "syncLastSynced": "Last synced {time}",
+  "@syncLastSynced": {
+    "description": "time is a localized time of day, e.g. 14:05",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "syncNowAction": "Sync now",
+  "syncDoneMessage": "Everything is up to date",
+  "syncOfflineExplanation": "You're offline. Everything you do is saved on this device and syncs when you're back online.",
+  "syncExplanation": "Your tasks are saved on this device first and synced with your account in the background.",
+  "syncIssuesTitle": "Changes that couldn't sync",
+  "syncIssueDismiss": "Dismiss",
+  "syncIssueDismissAll": "Dismiss all",
+  "syncIssueUnnamedTask": "A task",
+  "syncIssueUnnamedCategory": "A category",
+  "syncIssueUnnamedOther": "A change",
+  "syncIssueDeleted": "Deleted on another device. Your change was discarded.",
+  "syncIssueConflict": "Changed on another device. That version was kept.",
+  "syncIssuePlan": "Not included in your current plan. Your change was discarded.",
+  "syncIssueInvalid": "The server couldn't accept this change.",
+  "syncIssueFailed": "This change kept failing and was discarded.",
+  "syncIssueOther": "The server refused this change.",
+  "syncIssueCode": "Code {code}",
+  "@syncIssueCode": {
+    "description": "Server error code, shown for support",
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  }
+}

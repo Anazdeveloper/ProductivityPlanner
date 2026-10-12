@@ -1,0 +1,75 @@
+name: productivity_planner
+description: Plan tasks, get reminded on time, track what actually happened, and learn from it.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  # Flutter 3.47.x ships Dart 3.13. go_router 18 requires Dart ^3.12 / Flutter >= 3.44.
+  sdk: ^3.12.0
+  flutter: ">=3.47.0"
+
+# Versions marked "checked" were confirmed on pub.dev on 2026-10-06.
+# `bloc` is pinned through flutter_bloc and not checked separately.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  bloc: ^9.0.0                # flutter_bloc 9.1.1 requires bloc ^9.0.0
+  flutter_bloc: ^9.1.1        # checked
+  # Dependency injection
+  get_it: ^9.3.0              # checked (9.x only changed disposal order; no API we use)
+  # Navigation
+  go_router: ^18.0.2          # checked
+  # HTTP (Phase 2): interceptors for auth refresh, request ids, logging
+  dio: ^5.11.1                # checked
+  # IDs (Phase 2): UUIDv7 entity ids, UUIDv5 deterministic occurrence ids
+  uuid: ^4.6.0                # checked
+  # Auth (Phase 3)
+  flutter_secure_storage: ^11.2.0  # checked: Keychain / Keystore token storage
+  sign_in_with_apple: ^8.2.0       # checked
+  google_sign_in: ^7.2.0           # checked (v7 API: initialize + authenticate)
+  crypto: ^3.0.7                   # checked: SHA-256 of the Apple nonce
+  # Device time zone (IANA) for account creation; reused by reminders in Phase 6
+  flutter_timezone: ^5.1.1         # checked
+  # Local database (Phase 4): typed SQLite with reactive queries and migrations
+  drift: ^2.35.1                   # checked (2026-10-07; bundles SQLite via sqlite3 ^3.4 build hooks)
+  drift_flutter: ^0.3.1            # checked: opens the app database file, shared across isolates
+  # IANA tz database for wall-clock <-> UTC conversion independent of the device
+  timezone: ">=0.10.1 <0.12.0"     # checked 2026-10-09 against the GitHub source: 0.11.0 is the latest (offset became a Duration; code reads it version-independently); 0.10.x allowed so plugins pinning it still resolve
+  # Notifications (Phase 6)
+  flutter_local_notifications: ^22.3.1  # checked (2026-10-07): exact/inexact scheduling, actions, background isolate; 23.x is still dev
+  firebase_core: ^4.15.0                # checked: required by firebase_messaging
+  firebase_messaging: ^16.7.0           # checked: push token, foreground/opened/background messages
+  # Subscriptions (Phase 10)
+  purchases_flutter: ^10.14.0           # checked 2026-10-08 against the GitHub source (10.15.0 is the latest tag): RevenueCat wraps StoreKit + Play Billing, validates receipts, notifies our server
+  url_launcher: ^6.3.2                  # checked against the GitHub source: opens store subscription settings, terms and privacy links (required by store review)
+  # Voice task creation (Phase 9)
+  speech_to_text: ^7.5.0                # checked 2026-10-08 against the GitHub source (pub.dev was unreachable): platform recognizers (Apple Speech, Android SpeechRecognizer); 7.6 is still beta
+  # Offline sync (Phase 11)
+  connectivity_plus: ^7.3.0             # checked 2026-10-08 against the GitHub source (7.3.2 is the latest): network up/down events that trigger a sync when the device reconnects; 7.3 adds iOS teardown fixes
+  # Localisation: version is pinned by flutter_localizations
+  intl: any
+  # Codegen annotations (pure Dart, safe for the domain layer)
+  freezed_annotation: ^3.1.0  # checked (freezed 4.0.2 pins 3.1.0)
+  json_annotation: ^4.12.0    # checked (json_serializable 6.14.1 requires >=4.12.0 <4.13.0)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.16.1       # checked
+  freezed: ^4.0.1             # 4.0.2 needs analyzer 14, which no `test` release compatible with flutter_test's pinned test_api allows yet (via bloc_test); pub resolves 4.0.1
+  json_serializable: ^6.14.1  # checked (analyzer <15, build ^4, source_gen ^4: compatible with freezed 4)
+  drift_dev: ^2.35.1          # checked (analyzer >=13 <15, build/source_gen <5: same range as freezed 4)
+
+  bloc_test: ^10.0.0          # checked
+  mocktail: ^1.0.5            # checked
+  very_good_analysis: ^11.0.0 # checked
+
+flutter:
+  uses-material-design: true
+  # Runs `flutter gen-l10n` on pub get / build (config in l10n.yaml).
+  generate: true
